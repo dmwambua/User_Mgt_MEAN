@@ -1,0 +1,15 @@
+Started 11-10-21
+Complete CRUD Application with Node, Express & MongoDB
+https://www.youtube.com/watch?v=W1Kttu53qTg&t=148s
+12-20-21 Minute 33.00
+12-21-21 Minute 48.53
+12-22-21 Minute 57.16
+
+A CDN saves the static content of your site on servers across the world, then renders the files to a website visitor from the server that is closest to them. As a result, JavaScript, images, and videos load much faster on the front end of your website.
+
+Free CDC https://cdnjs.com/libraries/font-awesome
+Font Awesome Icons https://fontawesome.com/v5.15/icons?d=gallery&p=2 search icons, e.g user, right click icon and open in new tab copy code and paste it where you want the icon
+
+Google fonts 
+
+Copying lines Shift + Option + Up/Down
