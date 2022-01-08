@@ -26,18 +26,7 @@ app.set("view engine", "ejs");
 app.use('/css', express.static(path.resolve(__dirname, "assets/css")))
 app.use('/img', express.static(path.resolve(__dirname, "assets/img")))
 app.use('/js', express.static(path.resolve(__dirname, "assets/js")))
-    //set routes
-app.get('/', (req, res) => {
-    //renders html is index.ejs. no need to specify ejs because it is initialized above
-    res.render('index');
-})
+    //load routers
+app.use('/', require('./server/routes/router'))
 
-app.get('/add-user', (req, res) => {
-    //renders add_user.ejs template
-    res.render('add_user');
-})
-app.get('/update-user', (req, res) => {
-    //renders add_user.ejs template
-    res.render('update_user');
-})
-app.listen(PORT, () => { console.log(`Server is running on http://localhost:${PORT}`) })
+app.listen(PORT, () => { console.log(`Server is running on http://localhost:${PORT}`) });
