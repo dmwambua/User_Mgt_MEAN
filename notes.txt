@@ -5,6 +5,7 @@ https://www.youtube.com/watch?v=W1Kttu53qTg&t=148s
 12-21-21 Minute 48.53
 12-22-21 Minute 57.16
 12-30-21 1:08 hrs
+01-08-2022 1:23 hrs 
 
 A CDN saves the static content of your site on servers across the world, then renders the files to a website visitor from the server that is closest to them. As a result, JavaScript, images, and videos load much faster on the front end of your website.
 
