@@ -6,13 +6,14 @@ const route = express.Router();
  * @description Root Route
  * @method GET /
  */
-const services = require('../services/render')
+const services = require('../services/render');
+const controller = require('../controller/controller');
 
-route.get('/', services.homeRoutes)
-    /**
-     * @description add user
-     * @method GET / add_user
-     */
+route.get('/', services.homeRoutes);
+/**
+ * @description add user
+ * @method GET / add_user
+ */
 
 route.get('/add-user', services.add_user);
 /**
@@ -21,6 +22,14 @@ route.get('/add-user', services.add_user);
  */
 
 route.get('/update-user', services.update_user);
+
+//API route. post creates and adds the user
+//route goes to users
+//controller.create method is called when the post matches route.post api/users method
+route.post('/api/users', controller.create);
+route.get('/api/users', controller.find);
+route.put('/api/users/:id', controller.update);
+route.delete('/api/users/:id', controller.delete);
 
 
 module.exports = route;

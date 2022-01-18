@@ -7,7 +7,6 @@ const path = require('path');
 const connectDB = require('./server/database/connection');
 const app = express();
 
-
 //specify the path so that we can use the env variable
 //no need to specify full path since config and env are in same level?
 dotenv.config({ path: 'config.env' })
@@ -24,14 +23,14 @@ connectDB();
 app.use(bodyparser.urlencoded({ extended: true }));
 //set view engine. We are using embedded JS ejs
 //other engines include html and pug
-app.set("view engine", "ejs");
-//set path in views if you change folder of ejs files
-//app.set("views", path.resolve(__dirname, ""views/ejs))
-// load assets
+app.set("view engine", "ejs")
+    //set path in views if you change folder of ejs files
+    //app.set("views", path.resolve(__dirname, ""views/ejs))
+    // load assets
 app.use('/css', express.static(path.resolve(__dirname, "assets/css")))
 app.use('/img', express.static(path.resolve(__dirname, "assets/img")))
 app.use('/js', express.static(path.resolve(__dirname, "assets/js")))
     //load routers
-app.use('/', require('./server/routes/router'))
+app.use('/', require('./server/routes/router'));
 
 app.listen(PORT, () => { console.log(`Server is running on http://localhost:${PORT}`) });

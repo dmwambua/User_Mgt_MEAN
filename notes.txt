@@ -1,6 +1,8 @@
 Started 11-10-21
 Complete CRUD Application with Node, Express & MongoDB
-https://www.youtube.com/watch?v=W1Kttu53qTg&t=148s
+YouTube: https://www.youtube.com/watch?v=W1Kttu53qTg&t=148s
+GitHub: https://github.com/akashyap2013/CRUD_Application_Node
+
 12-20-21 Minute 33.00
 12-21-21 Minute 48.53
 12-22-21 Minute 57.16
@@ -15,3 +17,17 @@ Font Awesome Icons https://fontawesome.com/v5.15/icons?d=gallery&p=2 search icon
 Google fonts 
 
 Copying lines Shift + Option + Up/Down
+
+npm start to start server
+
+MongoDB
+Resources https://docs.atlas.mongodb.com/?_ga=2.250639046.1535702899.1642366661-1635665588.1641694009
+Use Mongo Atlas to store data in the cloud
+Create a cluster to manage data
+On Atlas>create New Project>Give project a name> Create Database>use free version>Create Cluster
+Go to Databases Access(Left Menu) and create a user.
+Network Access> Add IP Address (Allow Access from Anywhere)
+To connect Database go to Database>Connect>Connect your application>copy connection string
+Go to App config.env and create a variable MONGO_URI
+Enter the usernames password and give the database a name instead of myFirstDatabase
+
