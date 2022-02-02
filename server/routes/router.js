@@ -23,7 +23,7 @@ route.get('/add-user', services.add_user);
 
 route.get('/update-user', services.update_user);
 
-//API route. post creates and adds the user
+//API to create, find, update and delete records
 //route goes to users
 //controller.create method is called when the post matches route.post api/users method
 route.post('/api/users', controller.create);

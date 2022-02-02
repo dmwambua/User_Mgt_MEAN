@@ -24,9 +24,9 @@ exports.create = (req, res) => {
         })
         .catch(err => {
             res.status(500).send({
-                message: err.message || ""
-            })
-        })
+                message: err.message || "An error occurred while creating user"
+            });
+        });
 
 }
 
@@ -36,7 +36,7 @@ exports.find = (req, res) => {
 }
 
 //Update a new identified user by user id
-exports.update(req, res) => {
+exports.update = (req, res) => {
 
 }
 

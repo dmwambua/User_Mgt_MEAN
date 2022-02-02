@@ -1,4 +1,5 @@
 //mongodb schema that allows to define content and shape of document
+//after creating a model, a controller needs to be created as well to select, delete, update and create records.
 const mongoose = require('mongoose');
 var schema = new mongoose.Schema({
     name: {
@@ -6,6 +7,7 @@ var schema = new mongoose.Schema({
         required: true
     },
     email: {
+        type: String,
         required: true,
         unique: true
     },
