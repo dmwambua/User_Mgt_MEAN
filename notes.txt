@@ -1,19 +1,30 @@
 Started 11-10-21
-Complete CRUD Application with Node, Express & MongoDB
-YouTube: https://www.youtube.com/watch?v=W1Kttu53qTg&t=148s
-GitHub: https://github.com/akashyap2013/CRUD_Application_Node
-Diff Checker https://www.diffchecker.com/
-
 12-20-21 Minute 33.00
 12-21-21 Minute 48.53
 12-22-21 Minute 57.16
 12-30-21 1:08 hrs
 01-08-2022 1:23 hrs 
 01-15-2022 1:45 hrs
+02-08-2022 2:06 hrs
+
+
+Complete CRUD Application with Node, Express & MongoDB
+YouTube: https://www.youtube.com/watch?v=W1Kttu53qTg&t=148s
+GitHub: https://github.com/akashyap2013/CRUD_Application_Node
+Diff Checker https://www.diffchecker.com/
+Postman tutorial https://www.youtube.com/watch?v=z0AOq5vAte8
+
+POSTMAN
+-Loginto postman
+-APIS>POST>http://localhost:3000/api/users>Choose body and specify parameter for name and email>send
+
+Choose POST, GET, PUT etc to add, retrieve or update data by id e.g http://localhost:3000/api/users/620285876a88734a5f7714d3
+You have to go to body tab and choose x-www-urlencoded before you can enter the various value:keys like name,gender, email and status 
+To retrieve a record by its parameter, e.g id, you need to be in the params tab
 
 A CDN saves the static content of your site on servers across the world, then renders the files to a website visitor from the server that is closest to them. As a result, JavaScript, images, and videos load much faster on the front end of your website.
 
-Free CDC https://cdnjs.com/libraries/font-awesome
+Free CDN https://cdnjs.com/libraries/font-awesome
 Font Awesome Icons https://fontawesome.com/v5.15/icons?d=gallery&p=2 search icons, e.g user, right click icon and open in new tab copy code and paste it where you want the icon
 
 Google fonts 
@@ -50,3 +61,4 @@ npm notice save nodemon is being moved from dependencies to devDependencies
 npm WARN crud_men_app@1.0.0 No repository field.
 
 PROBLEM: Mongo schema email type had been left out: Added <type: String,> in model.js and that was it.
+Download postman for testing API
