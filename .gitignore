@@ -1,4 +1,4 @@
-git Wildcard info
+git Wildcard info:
 - # - marks line as a comment
 - * - matches 0 or more characters
 - ? - matches 1 character
