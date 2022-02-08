@@ -10,7 +10,7 @@ git Wildcard info:
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 #add specific files
-/config.env
+*.env
 
 # adding star before a file extension ignores files with those extensions
 
