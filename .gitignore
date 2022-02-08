@@ -1,4 +1,4 @@
-git Wildcard info:
+git Wildcard info
 - # - marks line as a comment
 - * - matches 0 or more characters
 - ? - matches 1 character
@@ -14,5 +14,5 @@ git Wildcard info:
 *txt
 
 # adding star before a file extension ignores files with those extensions
-#after adding gitignore run git rm rf --cached to clear chache then push
+#after adding gitignore run git rm -rf --cached to clear chache then push 
 
