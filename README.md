@@ -4,5 +4,7 @@
 ##Instructions
 ### git clone
 ### rename configExample.env to config.env 
-### go to config.env and follow instructions for adding mongodb user name and password
+### go to configExample.env and follow instructions for adding mongodb user name and password
 ### Setup mongodb cluster
+### run git rm -rf --cached to clear cache before pushing to GitHub otherwise gitignore won't work
+

@@ -14,5 +14,5 @@ git Wildcard info
 *txt
 
 # adding star before a file extension ignores files with those extensions
-#after adding gitignore run git rm -rf --cached to clear chache then push 
+#after adding gitignore run git rm -rf --cached to clear chache before pushing to GitHub
 

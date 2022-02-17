@@ -6,8 +6,8 @@ const connectDB = async() => {
             //In the video walk through, the below code is used, but mongoose 6 update automatically behaves as below and so the code is not required
             //  useNewUrlParser: true,
             //  useUnifiedTopology: true,
-            //   useFindAndModify: false,
-            //   useCreateIndex: true
+            //  useFindAndModify: false,
+            //  useCreateIndex: true
         })
         console.log(`MongoDB connected: ${con.connection.host}`);
     } catch (err) {
