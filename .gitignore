@@ -12,6 +12,7 @@ git Wildcard info
 #add specific files
 *.env
 *txt
+comparison_file.ejs
 
 # adding star before a file extension ignores files with those extensions
 #after adding gitignore run git rm -rf --cached to clear chache before pushing to GitHub
